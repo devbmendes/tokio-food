@@ -1,12 +1,50 @@
-# React + Vite
+# 🍣 Tokio Food
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Tokio Food** é um website moderno e responsivo para um restaurante japonês de vanguarda. O projeto foi desenvolvido com foco na experiência visual do utilizador, destacando as imagens dos pratos, menus detalhados e uma interface intuitiva para reservas.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Funcionalidades
 
-## Expanding the ESLint configuration
+- 🌐 Páginas principais:
+  - **Restaurante** – Apresentação do conceito e boas-vindas
+  - **Menu** – Lista completa de pratos com imagens, descrição e preço
+  - **Especialidades** – Destaque visual dos pratos mais famosos
+  - **Menu para Grupos** – Opções com preços e redirecionamento para reserva
+  - **Reservas** – Formulário para marcar mesa com envio de e-mail
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🧩 Componentes reutilizáveis em React (ex: título de página)
+- 🎨 Estilo visual inspirado em tons neon modernos (azul/roxo)
+- 📱 Totalmente **responsivo** (adaptado para desktop, tablet e mobile)
+- 📤 Envio de reservas via [EmailJS](https://www.emailjs.com)
+- 🍪 Banner de aceitação de cookies
+- 🔗 Footer com links para redes sociais
+- 📂 Estrutura clara com dados externos via JSON (`menu.json`)
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **React.js** (com React Router)
+- **HTML5**, **CSS3**, **JavaScript**
+- **Bootstrap 5** (responsividade + grid)
+- **EmailJS** – envio de reservas por e-mail
+- **JSON externo** para carregamento de menus
+
+---
+
+
+## 🚀 Instalação local
+
+```bash
+# Clonar o repositório
+git clone https://github.com/SEU-USUARIO/tokio-food.git
+
+# Aceder à pasta
+cd tokio-food
+
+# Instalar as dependências
+npm install
+
+# Iniciar o projeto
+npm start
