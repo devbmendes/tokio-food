@@ -1,0 +1,36 @@
+.title-container-menu {
+  display: flex;
+  justify-content: center;
+  align-items: anchor-center;
+  margin-top: 150px;
+}
+.title-container-menu h1 {
+  font-weight: 800;
+}
+
+.menu-title-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: anchor-center;
+}
+.title-menu {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.divisor {
+  height: 5px;
+  width: 40%;
+  background-color: var(--accent-color);
+}
+.menu-description {
+  margin-top: 15px;
+}
+.menus {
+  padding: 20px;
+  background-color: #00000033;
+  box-shadow: 0 0 0 12 white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin: 10px;
+  width: 48% !important;
+}

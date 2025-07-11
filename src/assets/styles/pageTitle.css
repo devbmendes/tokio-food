@@ -1,0 +1,15 @@
+.title-container-menu {
+  display: flex;
+  flex-direction: column;
+}
+.title-org {
+  display: flex;
+  align-items: anchor-center;
+}
+
+.menu-page-title-divisor {
+  width: 50px;
+  height: 5px;
+  background-color: var(--accent-color);
+  margin: 0 20px;
+}

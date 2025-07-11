@@ -1,0 +1,20 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary-color: #00f5ff; /* Azul neon */
+  --background-color: #0f1d22; /* Preto profundo */
+  --text-color: #f5f5f5; /* Branco leve */
+  --accent-color: #7c3aed; /* Roxo moderno */
+}
+
+body {
+  background-color: var(--background-color) !important;
+  color: var(--text-color) !important;
+  font-family: "Montserrat", sans-serif !important;
+}

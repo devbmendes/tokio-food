@@ -1,0 +1,107 @@
+:root {
+  --primary-color: #00f5ff; /* Azul neon */
+  --background-color: #121212; /* Preto profundo */
+  --text-color: #f5f5f5; /* Branco leve */
+  --accent-color: #7c3aed; /* Roxo moderno */
+}
+.hero-banner {
+  background-image: url("./../images/bannerb.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.hero-text {
+  max-width: 682px;
+  padding: 2rem;
+}
+
+.hero-text h1 {
+  font-size: 4rem;
+  color: var(--primary-color); /* azul neon */
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.hero-text p {
+  font-size: 1.25rem;
+  margin: 3rem 0;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.btn-banner {
+  background-color: var(--accent-color);
+  color: var(--bg);
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+  border: 1.5px solid var(--text-color);
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.btn-banner-cont {
+  color: var(--text-color);
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+  border: 1.5px solid var(--text-color);
+
+  text-decoration: none;
+  transition: border 0.3s;
+  margin-left: 15px;
+}
+
+.btn-banner-cont:hover {
+  border-color: var(--accent-color);
+}
+
+.btn-banner:hover {
+  background-color: var(--primary-color);
+  color: var(--text);
+}
+
+.img-responsive {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  max-height: 100vh;
+}
+
+.separar-paragrafo {
+  height: 3px;
+  margin: 20px 0;
+  background-color: #7c3aed;
+}
+
+.text-justify {
+  text-align: justify;
+}
+.btn-especial {
+  appearance: none;
+  padding: 15px 40px;
+  border: 1px solid white;
+  border-radius: 0;
+  background-color: #0f1d22;
+  color: white;
+  cursor: pointer;
+  width: 95%;
+  margin: 10px;
+  transition: border-color 0.3s;
+}
+.btn-especial:hover {
+  border-color: var(--accent-color);
+}
