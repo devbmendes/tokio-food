@@ -11,3 +11,6 @@ form textarea {
   width: 95%;
   margin: 10px;
 }
+.form {
+  margin: 0 auto;
+}
