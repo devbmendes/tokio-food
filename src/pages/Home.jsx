@@ -4,6 +4,7 @@ import Historia from "../components/Historia"
 import PageTitle from "../components/PageTitle"
 import './../assets/styles/home.css'
 import esp from './../assets/images/banner.jpg'
+import Contact from "../components/Contact"
 
 
 const Home = () => {
@@ -11,7 +12,7 @@ const Home = () => {
         <>
             <Banner />
             <PageTitle
-                title='Nossa História'
+                title='Sobre Nos'
                 description='Lorem ipsum dolor sit amet, consectetur adipisicing elit' />
             <Historia />
             <div className="container mt-5">
@@ -30,6 +31,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Contact />
 
         </>
 

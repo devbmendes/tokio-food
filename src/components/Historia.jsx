@@ -4,7 +4,7 @@ import heroHistory from './../assets/images/bannerb.jpg';
 export default function Historia() {
     return (
         <>
-            <div className="container">
+            <div className="container mt-5">
                 <div className="row">
                     <div className="col-md-4 col-sm-6">
                         <img src={heroImage} alt="" className="img-responsive" />

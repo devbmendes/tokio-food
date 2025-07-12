@@ -12,7 +12,7 @@ export default function Banner() {
             gastronómica única.
           </p>
           <Link to="/order" className="btn-banner">
-            Pedir já
+            Reserve já
           </Link>
           <Link to="/" className="btn-banner-cont ml-3">
             Contacte-nos

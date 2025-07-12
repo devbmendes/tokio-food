@@ -6,10 +6,12 @@ export default function Menu() {
     return (
 
         <>
-            <PageTitle
-                title='Nossos Menus'
-                description='Sabores modernos com um toque de Tóquio.'
-            />
+            <div className="mt-5">
+                <PageTitle
+                    title='Nossos Menus'
+                    description='Sabores modernos com um toque de Tóquio.'
+                />
+            </div>
             <div className="container mt-5">
                 <div className="row">
                     {menuData.map((item) => (
@@ -17,7 +19,7 @@ export default function Menu() {
                             <div className="menu-title-price">
                                 <span className='title-menu'>{item.titulo} </span>
                                 <span className='divisor d-none d-lg-block'></span>
-                                <span>€{item.preco}</span>
+                                <span className='price'>€{item.preco}</span>
                             </div>
                             <div className="menu-description">
                                 <p>{item.descricao}</p>
