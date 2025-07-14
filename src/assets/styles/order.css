@@ -10,7 +10,14 @@ form textarea {
   cursor: pointer;
   width: 95%;
   margin: 10px;
+  transition: background-color 0.3s;
 }
 .form {
   margin: 0 auto;
+}
+.send-message {
+  background-color: #7c3aed;
+}
+.send-message:hover {
+  background-color: transparent;
 }

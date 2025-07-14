@@ -1,20 +1,20 @@
 import { Link } from "react-router-dom"
 import Banner from "../components/Banner"
-import Historia from "../components/Historia"
 import PageTitle from "../components/PageTitle"
 import './../assets/styles/home.css'
 import esp from './../assets/images/banner.jpg'
 import Contact from "../components/Contact"
+import Services from "../components/Services"
 
 
-const Home = () => {
+const Restaurante = () => {
     return (
         <>
             <Banner />
             <PageTitle
-                title='Sobre Nos'
+                title='Nossos Serviços'
                 description='Lorem ipsum dolor sit amet, consectetur adipisicing elit' />
-            <Historia />
+            <Services />
             <div className="container mt-5">
                 <div className="row">
                     <div className="col-md-6">
@@ -37,4 +37,4 @@ const Home = () => {
 
     )
 }
-export default Home
+export default Restaurante

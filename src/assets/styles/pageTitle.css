@@ -13,3 +13,6 @@
   background-color: var(--accent-color);
   margin: 0 20px;
 }
+.margin-top {
+  margin-top: 8rem;
+}

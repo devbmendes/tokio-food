@@ -34,7 +34,7 @@ function Order() {
 
     return (
         <>
-            <PageTitle
+            <PageTitle className='margin-top'
                 title="Reserve uma Mesa"
                 description="Escolha o número de pessoas, a data e o horário desejado para reservar sua mesa." />
             <div>
@@ -101,7 +101,7 @@ function Order() {
                                         value={reserva.email}
                                         onChange={handleChange} placeholder='seu@email.com' />
                                 </div><div className="col-md-6 col-sm-12">
-                                    <input type="submit" value="Reserve Agora" />
+                                    <input type="submit" className='send-message' value="Reserve Agora" />
                                 </div>
                             </div>
                         </div>

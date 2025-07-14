@@ -3,60 +3,70 @@
     "id": 1,
     "titulo": "Sushi Tokio",
     "descricao": "Seleção premium de sushi com salmão, atum e camarão frescos.",
-    "preco": "12.90"
+    "preco": "12.90",
+    "imagem": "https://images.pexels.com/photos/31038188/pexels-photo-31038188.jpeg?auto=compress&cs=tinysrgb&h=600&w=800"
   },
   {
     "id": 2,
     "titulo": "Ramen Especial",
     "descricao": "Ramen artesanal com caldo de porco, ovo cozido, nori e cebolinho.",
-    "preco": "10.50"
+    "preco": "10.50",
+    "imagem": "https://images.pexels.com/photos/31317028/pexels-photo-31317028.jpeg?auto=compress&cs=tinysrgb&h=600&w=800"
   },
   {
     "id": 3,
     "titulo": "Tempura Mix",
     "descricao": "Crocante tempura de vegetais e camarão, servido com molho leve.",
-    "preco": "8.70"
+    "preco": "8.70",
+    "imagem": "https://images.pexels.com/photos/31038188/pexels-photo-31038188.jpeg?auto=compress&cs=tinysrgb&h=600&w=800"
   },
   {
     "id": 4,
     "titulo": "Yakitori",
     "descricao": "Espetinhos de frango grelhado ao estilo japonês com molho tare.",
-    "preco": "7.50"
+    "preco": "7.50",
+    "imagem": "https://images.pexels.com/photos/31302299/pexels-photo-31302299.jpeg?auto=compress&cs=tinysrgb&h=600&w=800"
   },
   {
     "id": 5,
     "titulo": "Gyoza de Porco",
     "descricao": "Dumplings japoneses recheados com carne de porco e legumes.",
-    "preco": "6.90"
+    "preco": "6.90",
+    "imagem": "https://images.pexels.com/photos/31038188/pexels-photo-31038188.jpeg?auto=compress&cs=tinysrgb&h=600&w=800"
   },
   {
     "id": 6,
-    "titulo": "Tataki de Atum",
-    "descricao": "Atum levemente grelhado servido com molho cítrico e sésamo.",
-    "preco": "11.20"
+    "titulo": "Sashimi Deluxe",
+    "descricao": "Cortes frescos de salmão, atum e peixe branco.",
+    "preco": "14.00",
+    "imagem": "https://images.pexels.com/photos/31038188/pexels-photo-31038188.jpeg?auto=compress&cs=tinysrgb&h=600&w=800"
   },
   {
     "id": 7,
-    "titulo": "Curry Japonês",
-    "descricao": "Caril suave com arroz e pedaços de carne ou legumes.",
-    "preco": "9.80"
+    "titulo": "Udon com Camarão",
+    "descricao": "Macarrão udon grosso com camarão grelhado e legumes.",
+    "preco": "11.80",
+    "imagem": "https://images.pexels.com/photos/31302299/pexels-photo-31302299.jpeg?auto=compress&cs=tinysrgb&h=600&w=800"
   },
   {
     "id": 8,
-    "titulo": "Salada de Algas",
-    "descricao": "Salada refrescante de algas marinhas com sésamo e gengibre.",
-    "preco": "5.20"
+    "titulo": "Tonkatsu",
+    "descricao": "Costeleta de porco panada, crocante por fora e suculenta por dentro.",
+    "preco": "9.80",
+    "imagem": "https://images.pexels.com/photos/31302299/pexels-photo-31302299.jpeg?auto=compress&cs=tinysrgb&h=600&w=800"
   },
   {
     "id": 9,
-    "titulo": "Donburi de Frango",
-    "descricao": "Tigela de arroz com frango teriyaki, cebola e ovo.",
-    "preco": "9.50"
+    "titulo": "Okonomiyaki",
+    "descricao": "Panqueca japonesa recheada com repolho, bacon e molho especial.",
+    "preco": "8.90",
+    "imagem": "https://images.pexels.com/photos/31302299/pexels-photo-31302299.jpeg?auto=compress&cs=tinysrgb&h=600&w=800"
   },
   {
     "id": 10,
-    "titulo": "Matcha Cheesecake",
-    "descricao": "Cheesecake de chá verde japonês com base crocante.",
-    "preco": "6.00"
+    "titulo": "Mochi Gelado",
+    "descricao": "Sobremesa de arroz glutinoso recheada com gelado de vários sabores.",
+    "preco": "4.50",
+    "imagem": "https://images.pexels.com/photos/31302299/pexels-photo-31302299.jpeg?auto=compress&cs=tinysrgb&h=600&w=800"
   }
 ]

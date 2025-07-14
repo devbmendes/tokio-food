@@ -34,7 +34,7 @@ export default function Contact() {
                                 onChange={handleChance} />
                             <textarea name="mensagem" id="mensagem" rows='6' placeholder="Insira aqui sua mensagem"
                                 onChange={handleChance}></textarea>
-                            <input type="submit" name="" id="" value='Enviar' />
+                            <input type="submit" className="send-message" name="" id="" value='Enviar' />
                         </form>
                     </div>
                 </div>

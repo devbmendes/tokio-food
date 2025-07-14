@@ -1,7 +1,7 @@
 // src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Home from './pages/Home';
+import Home from './pages/Restaurante';
 import Order from './pages/Order';
 import Especialidade from './pages/Especialidade';
 import Menu from './pages/Menu';
