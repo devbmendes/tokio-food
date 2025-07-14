@@ -1,6 +1,7 @@
 import PageTitle from "./PageTitle";
 import './../assets/styles/order.css'
 import { useState } from "react";
+import emailjs from '@emailjs/browser';
 
 export default function Contact() {
     const [contact, setContact] = useState({
@@ -18,8 +19,21 @@ export default function Contact() {
     }
     function handleSubmit(e) {
         e.preventDefault();
-        console.log(contact)
+
+        emailjs.send(
+            'service_1pi16he',
+            'template_32g8jnj',
+            contact,
+            'qVa10WFnsVfxj2Ft0'     // Substitui
+        ).then(() => {
+            alert('Mensagem enviada com sucesso!');
+            setContact({ email: '', nome: '', mensagem: '' });
+        }).catch((error) => {
+            console.error('Erro ao enviar:', error);
+            alert('Ocorreu um erro ao enviar. Tente novamente.');
+        });
     }
+
     return (
         <>
             <PageTitle title='Contacte - nos'

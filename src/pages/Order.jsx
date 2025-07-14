@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import PageTitle from "../components/PageTitle";
 import './../assets/styles/order.css';
+import Map from '../components/Map';
 
 function Order() {
     // Data atual no formato YYYY-MM-DD
@@ -108,7 +109,7 @@ function Order() {
                     </fieldset>
                 </form>
                 <div className="mapa">
-                    <h1>Mapa</h1>
+                    <Map />
                 </div>
             </div>
 
