@@ -38,15 +38,15 @@ function Order() {
             <PageTitle className='margin-top'
                 title="Reserve uma Mesa"
                 description="Escolha o número de pessoas, a data e o horário desejado para reservar sua mesa." />
-            <div>
+            <div className='contact-page'>
                 <form onSubmit={handleSubmit}>
                     <fieldset>
                         <div className="container">
                             <div className="row">
                                 {/* Número de pessoas */}
-                                <div className="col-md-6 col-sm-12">
+                                <div className="col-md-6 col-sm-12 col-xs-12">
                                     <select name="pessoas" value={reserva.pessoas} onChange={handleChange}>
-                                        {[...Array(6)].map((_, i) => (
+                                        {[...Array(20)].map((_, i) => (
                                             <option key={i + 1} value={i + 1}>
                                                 {i + 1} Pessoa{i > 0 && 's'}
                                             </option>
@@ -55,7 +55,7 @@ function Order() {
                                 </div>
 
                                 {/* Data */}
-                                <div className="col-md-6 col-sm-12">
+                                <div className="col-md-6 col-sm-12 col-xs-12">
                                     <input
                                         type="date"
                                         name="data"
@@ -65,7 +65,7 @@ function Order() {
                                 </div>
 
                                 {/* Hora */}
-                                <div className="col-md-6 col-sm-12">
+                                <div className="col-md-6 col-sm-12 col-xs-12">
                                     <select name="hora" value={reserva.hora} onChange={handleChange}>
                                         {[
                                             '00:30', '01:00', '01:30', '02:00', '02:30', '03:00',
@@ -85,7 +85,7 @@ function Order() {
                                 </div>
 
 
-                                <div className="col-md-6 col-sm-12">
+                                <div className="col-md-6 col-sm-12 col-xs-12">
                                     <input type="text"
                                         name="telefone"
                                         value={reserva.telefone}
@@ -96,20 +96,24 @@ function Order() {
                                         name="nome"
                                         value={reserva.nome}
                                         onChange={handleChange} placeholder='Insira seu nome' />
-                                </div><div className="col-md-6 col-sm-12">
+                                </div><div className="col-md-6 col-sm-12 col-xs-12">
                                     <input type="email"
                                         name="email"
                                         value={reserva.email}
                                         onChange={handleChange} placeholder='seu@email.com' />
-                                </div><div className="col-md-6 col-sm-12">
-                                    <input type="submit" className='send-message' value="Reserve Agora" />
+                                </div><div className="col-md-12 col-sm-12 col-xs-12">
+                                    <input type="submit" className='send-message' value="Reserve Agora" style={{ width: '98%' }} />
                                 </div>
                             </div>
                         </div>
                     </fieldset>
                 </form>
-                <div className="mapa">
-                    <Map />
+                <div className='container' style={{ margin: '10px' }}>
+                    <div className="row">
+                        <div className="col-md-12 col-sm-12 ">
+                            <Map />
+                        </div>
+                    </div>
                 </div>
             </div>
 

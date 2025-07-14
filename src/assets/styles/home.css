@@ -21,7 +21,7 @@
   width: 100%;
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: start;
 }
 
@@ -35,6 +35,9 @@
   color: var(--primary-color); /* azul neon */
   margin-bottom: 1rem;
   font-weight: 800;
+  color: transparent;
+  -webkit-text-stroke: 1px #00ffff; /* Borda em cada letra */
+  font-weight: bold;
 }
 
 .hero-text p {
@@ -79,6 +82,27 @@
   height: 400px;
   object-fit: cover;
   max-height: 100vh;
+}
+
+.service-icon {
+  background-color: #00000033;
+  margin: 10px;
+}
+
+.service-icon p {
+  margin: 20px !important;
+}
+
+.service-icon .bi {
+  font-size: 12em;
+  color: var(--primary-color);
+  color: transparent;
+  -webkit-text-stroke: 1px #00ffff; /* Borda em cada letra */
+  font-weight: bold;
+}
+
+.service-icon h3 {
+  letter-spacing: 2px;
 }
 
 .separar-paragrafo {

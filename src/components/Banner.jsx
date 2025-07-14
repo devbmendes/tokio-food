@@ -6,7 +6,7 @@ export default function Banner() {
     <section className="hero-banner">
       <div className="overlay">
         <div className="hero-text">
-          <h1>SUA FOOD TOKIO</h1>
+          <h1>Bem vindo as noosas delicias</h1>
           <p>
             Sabores modernos, com um toque de Tóquio.<br /> Descubra uma experiência
             gastronómica única.

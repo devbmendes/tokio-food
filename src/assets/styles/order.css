@@ -21,3 +21,15 @@ form textarea {
 .send-message:hover {
   background-color: transparent;
 }
+.contact-page {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-page {
+    flex-direction: column;
+  }
+  .send-message {
+    width: 95%;
+  }
+}

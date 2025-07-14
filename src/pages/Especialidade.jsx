@@ -15,9 +15,9 @@ function Especialidade() {
                             <div className="image-especialidade">
                                 <img src={item.imagem} alt={item.titulo} />
                                 <div className="menu-description mt-3">
-                                    <p>{item.descricao}</p>
+                                    <p className="mt-3">{item.descricao}</p>
                                 </div>
-                                <span className='divisor d-none d-lg-block'></span>
+                                <span className='divisor d-none d-lg-block mb-3' style={{ margin: '0 auto' }}></span>
                                 <span className='price mt-3 bold'>€{item.preco}</span>
                             </div>
 

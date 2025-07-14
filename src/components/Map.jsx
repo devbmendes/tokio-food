@@ -1,13 +1,13 @@
 import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
 const containerStyle = {
-    width: '500px',
+    width: 'auto',
     height: '400px'
 };
 
 const center = {
-    lat: 41.14961,  // Latitude de exemplo (Porto)
-    lng: -8.61099   // Longitude de exemplo
+    lat: 41.14961,
+    lng: -8.61099
 };
 
 export default function Map() {

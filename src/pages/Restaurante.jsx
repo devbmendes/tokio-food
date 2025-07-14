@@ -8,11 +8,13 @@ import Services from "../components/Services"
 
 
 const Restaurante = () => {
+    const title = 'Nossos Serviços'
+    const description = 'Lorem ipsum dolor sit amet, consectet adipisicing eli sed do eiu smotem por incididunt ut abore et dolore magali qua. Ut enim ad minm eni amquis nostrud exercitation.'
     return (
         <>
             <Banner />
             <PageTitle
-                title='Nossos Serviços'
+                title={title}
                 description='Lorem ipsum dolor sit amet, consectetur adipisicing elit' />
             <Services />
             <div className="container mt-5">
@@ -21,10 +23,8 @@ const Restaurante = () => {
                         <img src={esp} alt="" className='img-responsive' />
                     </div>
                     <div className="col-md-6">
-                        <PageTitle
-                            title='Especialidades'
-                            description='Lorem ipsum dolor sit amet, consectet adipisicing eli sed do eiu smotem por 
-                        incididunt ut abore et dolore magali qua. Ut enim ad minm eni amquis nostrud exercitation.'/>
+                        <PageTitle title='Especialidades'
+                            description={description} />
                         <Link to='/especialidade'>
                             <button className="btn-especial">Ver Todos</button>
                         </Link>
