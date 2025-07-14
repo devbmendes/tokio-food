@@ -7,6 +7,7 @@ import Especialidade from './pages/Especialidade';
 import Menu from './pages/Menu';
 import './index.css'
 import Footer from './components/Footer';
+import CookieBanner from './components/CookieBanner';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/menu' element={<Menu />} />
       </Routes>
       <Footer />
+      <CookieBanner />
     </Router>
 
   );
