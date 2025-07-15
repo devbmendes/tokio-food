@@ -5,10 +5,10 @@ export default function Services() {
         <>
             <div className="container mt-5">
                 <div className="row">
-                    <div className="col-md-4 col-sm-12 text-center">
+                    <div className="col-md-4 col-sm-12 col-xs-12 text-center">
                         <div className="service-icon">
-                            <div className="">
-                                <i class="bi bi-fork-knife"></i>
+                            <div>
+                                <i className="bi bi-fork-knife"></i>
                             </div>
                             <div className="service-title">
                                 <h3>No Restaurante</h3>
@@ -19,10 +19,10 @@ export default function Services() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-12 text-center ">
+                    <div className="col-md-4 col-sm-12 col-xs-12 text-center ">
                         <div className="service-icon">
-                            <div className="">
-                                <i class="bi bi-bucket-fill"></i>
+                            <div >
+                                <i className="bi bi-phone"></i>
                             </div>
                             <div className="service-title">
                                 <h3>Reservas Online</h3>
@@ -34,10 +34,10 @@ export default function Services() {
                         </div>
 
                     </div>
-                    <div className="col-md-4 col-sm-12 text-center">
+                    <div className="col-md-4 col-sm-12 col-xs-12 text-center">
                         <div className="service-icon">
-                            <div className="">
-                                <i class="bi bi-bucket-fill"></i>
+                            <div>
+                                <i className="bi bi-bucket-fill"></i>
                             </div>
                             <div className="service-title">
                                 <h3>Take Away</h3>

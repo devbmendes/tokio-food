@@ -61,12 +61,5 @@
     "descricao": "Panqueca japonesa recheada com repolho, bacon e molho especial.",
     "preco": "8.90",
     "imagem": "https://images.pexels.com/photos/31302299/pexels-photo-31302299.jpeg?auto=compress&cs=tinysrgb&h=600&w=800"
-  },
-  {
-    "id": 10,
-    "titulo": "Mochi Gelado",
-    "descricao": "Sobremesa de arroz glutinoso recheada com gelado de vários sabores.",
-    "preco": "4.50",
-    "imagem": "https://images.pexels.com/photos/31302299/pexels-photo-31302299.jpeg?auto=compress&cs=tinysrgb&h=600&w=800"
   }
 ]

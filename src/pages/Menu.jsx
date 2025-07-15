@@ -17,17 +17,20 @@ export default function Menu() {
             <div className="container">
                 <div className="row">
                     {menuData.map((item) => (
-                        <div className="col-md-6 col-sm-12 menus" key={item.id}
+                        <div className="col-lg-4 col-md-6 col-sm-12 col-xs-12" key={item.id}
                             onClick={() => setImagemSelecionada(item.imagem)}
                             style={{ cursor: 'pointer' }}>
-                            <div className="menu-title-price">
-                                <span className='title-menu'>{item.titulo} </span>
-                                <span className='divisor d-none d-lg-block'></span>
-                                <span className='price'>€{item.preco}</span>
+                            <div className="menus">
+                                <div className="menu-title-price">
+                                    <span className='title-menu'>{item.titulo} </span>
+                                    <span className='divisor d-none d-lg-block'></span>
+                                    <span className='price'>€{item.preco}</span>
+                                </div>
+                                <div className="menu-description">
+                                    <p>{item.descricao}</p>
+                                </div>
                             </div>
-                            <div className="menu-description">
-                                <p>{item.descricao}</p>
-                            </div>
+
                         </div>
                     ))}
 
