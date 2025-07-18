@@ -8,6 +8,8 @@ import Menu from './pages/Menu';
 import './index.css'
 import Footer from './components/Footer';
 import CookieBanner from './components/CookieBanner';
+import NotFound from './components/NotFound';
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Route path="/order" element={<Order />} />
         <Route path='/especialidade' element={<Especialidade />} />
         <Route path='/menu' element={<Menu />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
       <Footer />
       <CookieBanner />

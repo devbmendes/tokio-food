@@ -5,6 +5,7 @@ import './../assets/styles/home.css'
 import esp from './../assets/images/banner.jpg'
 import Contact from "../components/Contact"
 import Services from "../components/Services"
+import Modal from "../components/Modal"
 
 
 const Restaurante = () => {
@@ -13,6 +14,7 @@ const Restaurante = () => {
     return (
         <>
             <Banner />
+            <Modal />
             <PageTitle
                 title={title}
                 description='Lorem ipsum dolor sit amet, consectetur adipisicing elit' />
