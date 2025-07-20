@@ -33,3 +33,11 @@ form textarea {
     width: 95%;
   }
 }
+.fade-message {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-message.hidden {
+  opacity: 0;
+}

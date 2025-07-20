@@ -6,14 +6,11 @@ import menuData from './../data/menus.json';
 export default function Menu() {
     const [imagemSelecionada, setImagemSelecionada] = useState(null);
     return (
-
         <>
-
             <PageTitle className="margin-top"
                 title='Nossos Menus'
                 description='Sabores modernos com um toque de Tóquio.'
             />
-
             <div className="container">
                 <div className="row">
                     {menuData.map((item) => (
@@ -30,10 +27,8 @@ export default function Menu() {
                                     <p>{item.descricao}</p>
                                 </div>
                             </div>
-
                         </div>
                     ))}
-
                 </div>
             </div>
             {/* Modal / Pop-up */}

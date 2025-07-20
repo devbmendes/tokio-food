@@ -5,7 +5,7 @@
   background-color: rgba(0, 0, 0, 0.85);
   color: #fff;
   text-align: center;
-  padding: 15px 10px;
+  padding: 30px 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,10 +18,13 @@
 }
 
 .cookie-banner button {
-  background-color: #7c3aed;
+  background-color: transparent;
   margin-left: 15px;
   padding: 8px 30px;
   border-radius: none !important;
   color: white;
   border: 1px solid white;
+}
+.acept {
+  background-color: #7c3aed !important;
 }
